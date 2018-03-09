@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint:recommended", "prettier"],
+  "extends": ["airbnb-base", "prettier"],
   "plugins": ["prettier"],
   "env": {
     "es6": true,
@@ -9,6 +9,7 @@
     "ecmaVersion": 8
   },
   "rules": {
+    "no-process-env": "error",
     "prettier/prettier": "error"
   }
 }
